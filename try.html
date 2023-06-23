@@ -7,17 +7,23 @@
            .h{
             font-size: 500%;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            position: absolute;
+            left: 405px;
+            top:115px
            }
            .bt{
               background-color:rgb(255, 255, 255);
+              padding: 10px 100px;
               color: red;
-              border:none;
               border-color: yellow;
+              border:none;
               border-radius: 5px;
-              transition-duration: 2ms;
+              transition-duration: 4ms;
               cursor: pointer;
-              right: 0.5%;
-              top: 50%;
+              padding-left: 10px;
+              position: absolute;
+              left: 480px;
+              top: 340px;
            }
            .bt:hover{
             background-color:yellow;
@@ -26,10 +32,17 @@
             border-color: yellow;
             border-radius: 5px;
            }
+           .d{
+            position: absolute;
+            left: 80px;
+            top: 20px;
+           }
         </style>
     </head>
     <body class="b">
-        <h4 class="h" style="text-align: center; padding:15%">MobGraph</h4>
+        <div class="d">
+        <h4 class="h">MobGraph</h4>
         <button class="bt">CLICK</button>
+        </div>
     </body>
 </html>
