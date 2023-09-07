@@ -4,6 +4,7 @@
     background-color: transparent; 
     font-size: 50px;
     font-family: serif;
+    margin-left: 50px;
 }
 
 .b2{
@@ -20,4 +21,10 @@
 .b2:hover{
     transition: 0.4s;
     background-color: rgb(255, 65, 65);
+}
+
+.d2{
+    margin-top: 110px;
+    margin-right: 120px;
+    margin-left: 50px;
 }
