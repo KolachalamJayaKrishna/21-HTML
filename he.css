@@ -22,3 +22,43 @@
     background-color: rgb(255, 65, 65);
 }
 
+.d2{
+    margin-right: 120px;
+    margin-top: 40px;
+}
+.t2{
+    border: 2px solid black;
+    border-radius: 15px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.b3{
+    border: none;
+    border-radius: 15px;
+    background-color:rgb(255, 65, 65);
+    padding: 100px;
+    margin-right: 20px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.b3:hover{
+    transition: 0.4s;
+    background-color: black;
+    color: white;
+}
+
+.b4{
+    border: none;
+    border-radius: 15px;
+    background-color:rgb(255, 65, 65);
+    padding: 100px;
+    margin-right: 20px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.b4:hover{
+    transition: 0.4s;
+    background-color: black;
+    color: white;
+}
